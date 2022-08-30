@@ -45,32 +45,54 @@
 
 // ## // ## Counter // Camouflage func()
 
-function Counter() {
-    this.val = 0
-    const comf = this
+// function Counter() {
+//     this.val = 0
+//     const comf = this
 
-    this.increment = function () {
-        comf.val = comf.val+1
-    }
-    this.value = function () {
-        console.log(comf.val);
-    }
-    this.reset = function () {
-        comf.val = 0
-    }
+//     this.increment = function () {
+//         comf.val = comf.val+1
+//     }
+//     this.value = function () {
+//         console.log(comf.val);
+//     }
+//     this.reset = function () {
+//         comf.val = 0
+//     }
 
-    this.decrement = function () {
-        comf.val = comf.val-1
-    }
-}
+//     this.decrement = function () {
+//         comf.val = comf.val-1
+//     }
+// }
 
-function makeCounter() {
-    return new Counter()
-}
+// function makeCounter() {
+//     return new Counter()
+// }
 
-const counter1 = makeCounter()
+// const counter1 = makeCounter()
 
 // counter1.value()
 // counter1.increment()
 // counter1.decrement()
 // counter1.reset()
+
+
+
+
+// /// multBy
+
+// const array = [10, 20, 30, 40, 50];
+
+// Array.prototype.multBy = function (number) {
+//     return this.map(function (i) {
+//         return i * number
+//     })
+// }
+// console.log(array.multBy(number = 2));
+
+
+//  // function mult(arr, number) {
+// //     return arr.map(function (i) {
+// //         return i * number
+// //     })
+// // }
+// // console.log(mult(array, number = 10));
